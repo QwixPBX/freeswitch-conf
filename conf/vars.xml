@@ -1,6 +1,5 @@
 <include>
-  <X-PRE-PROCESS cmd="set" data="domain=172.17.0.2"/>
-  <X-PRE-PROCESS cmd="set" data="domain_name=$${domain}"/>
+<X-PRE-PROCESS cmd="set" data="domain=$${local_ip_v4}"/>
   <X-PRE-PROCESS cmd="set" data="global_codec_prefs=OPUS,PCMU,PCMA"/>
   <X-PRE-PROCESS cmd="set" data="outbound_caller_name=QwixPBX"/>
   <X-PRE-PROCESS cmd="set" data="outbound_caller_id=0000000000"/>
