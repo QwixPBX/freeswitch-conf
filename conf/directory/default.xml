@@ -6,7 +6,6 @@
     <variables>
       <variable name="record_stereo" value="true"/>
       <variable name="transfer_fallback_extension" value="operator"/>
-      <variable name="hold_music" value="$${hold_music}"/>
     </variables>
     <groups>
       <group name="default">
