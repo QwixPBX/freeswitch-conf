@@ -7,6 +7,7 @@
 
     <!-- XML Interfaces -->
     <load module="mod_xml_rpc"/>
+    <load module="mod_xml_curl"/>
 
     <!-- Event Handlers -->
     <load module="mod_cdr_csv"/>
@@ -29,6 +30,10 @@
     <load module="mod_dialplan_xml"/>
 
     <!-- Codec Interfaces -->
+    <load module="mod_opus"/>
+
+    <!-- Language -->
+    <load module="mod_lua"/>
 
     <!-- File Format Interfaces -->
     <load module="mod_sndfile"/>
