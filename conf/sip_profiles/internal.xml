@@ -10,10 +10,10 @@
     <param name="context" value="default"/>
     <param name="codec-prefs" value="$${global_codec_prefs}"/>
 
-    <param name="rtp-ip" value="$${local_ip_v4}"/>
-    <param name="sip-ip" value="$${local_ip_v4}"/>
-    <param name="ext-rtp-ip" value="auto-nat"/>
-    <param name="ext-sip-ip" value="auto-nat"/>
+<param name="sip-ip" value="$${local_ip_v4}"/>
+<param name="rtp-ip" value="$${local_ip_v4}"/>
+<param name="ext-sip-ip" value="$${domain}"/>
+<param name="ext-rtp-ip" value="$${domain}"/>
     <param name="sip-port" value="$${internal_sip_port}"/>
   </settings>
 </profile>
